@@ -1,0 +1,21 @@
+#include<fstream>
+void main(){
+ifstream in("a.txt");
+	if (!in)
+	{
+		cout << "not in";
+	}
+	double aa;
+	char av[100];
+	
+	in >>  aa;
+	
+	cout  <<'a'<< aa << endl;
+	in >> aa;
+
+	cout << 'a' << aa << endl;
+	
+	
+	
+	//file in project, projectname, projectname
+	}
